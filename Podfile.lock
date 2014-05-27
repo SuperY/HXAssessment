@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ConciseKit (0.1.2)
+  - MBProgressHUD (0.8)
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
+  - ReactiveCocoa/UI (2.3):
+    - ReactiveCocoa/Core
+  - REFormattedNumberField (1.1.2)
+  - RETableViewManager (HEAD based on 1.5.10):
+    - REFormattedNumberField (~> 1.1.2)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - TJLBarButtonMenu (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ConciseKit
+  - MBProgressHUD
+  - ReactiveCocoa
+  - RETableViewManager (HEAD)
+  - TJLBarButtonMenu
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  ConciseKit: abaee9f102396b59cccdb812b78527c7a24cda61
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  ReactiveCocoa: 2066583826c17dde8e90c41e489f682048cc57c9
+  REFormattedNumberField: 321bf62160e6dc480844ac99ab6821ef4dd20802
+  RETableViewManager: 534104717ea10a71b203e80ee0dd3c4c79648be3
+  REValidation: a0033a582415848854e875dfcbe69c107de19f81
+  TJLBarButtonMenu: 2f32da33d5cf8dad488057b626413725f751d605
+
+COCOAPODS: 0.32.1
