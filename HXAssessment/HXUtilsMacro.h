@@ -9,17 +9,6 @@
 #ifndef HXAssessment_HXUtilsMacro_h
 #define HXAssessment_HXUtilsMacro_h
 
-//
-//  XCUtilMacro.h
-//  XiCiAPP
-//
-//  Created by Felix_Y on 14-5-27.
-//  Copyright (c) 2014年 XiCi. All rights reserved.
-//
-
-#ifndef XiCiAPP_XCUtilMacro_h
-#define XiCiAPP_XCUtilMacro_h
-
 //----------------------系统----------------------------
 //判断是真机还是模拟器
 #if TARGET_OS_IPHONE
@@ -176,4 +165,3 @@
 #endif
 
 
-#endif

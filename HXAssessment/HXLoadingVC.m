@@ -9,6 +9,12 @@
 #import "HXLoadingVC.h"
 
 @interface HXLoadingVC ()
+@property (weak, nonatomic) IBOutlet UITextField *userNameTF;
+@property (weak, nonatomic) IBOutlet UITextField *pwdTF;
+@property (weak, nonatomic) IBOutlet UIButton *remeberPwdTF;
+
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+@property (weak, nonatomic) IBOutlet UIButton *registerBtn;
 
 @end
 
@@ -23,11 +29,37 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+
+    [self checkUserState];
+    [self updateInfo];
+
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+- (void)checkUserState{
+    
+}
+
+- (void)updateInfo{
+
+}
+
+- (IBAction)clickRemeberPwd:(id)sender {
+
+
+}
+
+- (IBAction)clickLogin:(id)sender {
+
+}
+
 
 - (void)didReceiveMemoryWarning
 {

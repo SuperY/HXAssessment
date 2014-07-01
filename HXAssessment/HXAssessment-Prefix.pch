@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+
+    #import "HXAppMacro.h"
+    #import "HXUtilsMacro.h"
+    #import "HXRequestMacro.h"
+    #import "HXVendorMacro.h"
+    #import "HXNotificationMacro.h"
+    #import "HXSingletonMaker.h"
 #endif

@@ -1,7 +1,11 @@
 platform:ios, '6.0'
 pod 'AFNetworking'
 pod 'ReactiveCocoa'
-pod 'TJLBarButtonMenu'
+pod 'REMenu'
 pod 'ConciseKit'
 pod 'MBProgressHUD'
 pod 'RETableViewManager', :head
+pod 'JSONModel'
+pod 'SSKeychain'
+pod 'hpple', '~> 0.2.0'
+pod 'SparkInspector'

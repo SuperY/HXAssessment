@@ -7,12 +7,28 @@
 //
 
 #import "HXAppDelegate.h"
+//#import "RNCachingURLProtocol.h"
 
 @implementation HXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
+//    [NSURLProtocol registerClass:[RNCachingURLProtocol class]];
+
     // Override point for customization after application launch.
+    if (iOS_Version >=7.0) {
+        //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(kNavGreyColor)];
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav5_bg"] forBarMetrics:UIBarMetricsDefault];
+        [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+    }else{
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_background"] forBarMetrics:UIBarMetricsDefault];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
+    }
+    
+
+
+
     return YES;
 }
 							
